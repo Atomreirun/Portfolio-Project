@@ -83,6 +83,54 @@ p {
 .about-section-content {
   margin: 50px;
 }
+
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 3px;
+}
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+.content {
+  margin: 30px;
+}
+
+.contact-container {
+  padding: 150px, 150px;
+  margin: 250px 450px;
+}
+
+.contact {
+  border-style: double;
+  border-radius: 20px;
+  background: #dcd0ff;
+}
+
+.contact h1 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.contact a {
+  display: block;
+  margin: 0 auto;
+}
+
 .btn-branding {
   background: var(--branding-color);
   text-align: center;
@@ -92,6 +140,7 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
@@ -105,24 +154,94 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-width: 100px;
+}
+
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
   }
+
   h2 {
     font-size: 35px;
   }
+
   .hero {
     padding: 80px 20px;
   }
+
   .about-section {
     text-align: center;
     padding: 0;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-container {
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+  }
+
+  .contact {
+    text-align: center;
+    padding: 0px 40px;
+    margin: 0 auto;
+  }
+
+  .contact h1 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .contact h3 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .contact a {
+    text-align: center;
+    font-size: 10px;
   }
 
   .project-description {
     padding: 0;
     text-align: center;
   }
+}
+nav a {
+  font-size: 12px;
+  margin: 5px;
 }
