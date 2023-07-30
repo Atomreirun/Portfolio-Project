@@ -43,10 +43,10 @@ p {
 }
 
 .travel {
-  border-color: solid darkorange;
+  border-color: solid solid gray;
   border-radius: 10px;
-  max-width: 600px;
-  max-height: 800px;
+  max-width: 650px;
+  max-height: 600px;
   padding-top: 60px;
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .content h1 {
   font-size: 55px;
@@ -120,28 +120,7 @@ p {
   font-size: 14px;
 }
 .content {
-  margin: 30px;
-}
-
-.contact-container {
-  padding: 150px, 150px;
-  margin: 250px 450px;
-}
-
-.contact {
-  border-style: double;
-  border-radius: 20px;
-  background: #dcd0ff;
-}
-
-.contact h1 {
-  font-size: 50px;
-  margin-top: 100px;
-}
-
-.contact a {
-  display: block;
-  margin: 0 auto;
+  margin: 20px;
 }
 
 .btn-branding {
@@ -201,7 +180,7 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px;
+  padding: 30px 120px;
   border-radius: 10px;
 }
 
@@ -235,6 +214,12 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+p.text-center {
+  font-size: 15px;
+  margin-top: 5px;
+  opacity: 0.8;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -258,40 +243,6 @@ footer .social-links a:hover {
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-
-  .contact-container {
-    text-align: center;
-    padding: 0px;
-    margin: 0;
-  }
-
-  .contact {
-    text-align: center;
-    padding: 0px 40px;
-    margin: 0 auto;
-  }
-
-  .contact h1 {
-    font-size: 20px;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .contact h3 {
-    font-size: 20px;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .contact a {
-    text-align: center;
-    font-size: 10px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
   }
 }
 nav a {

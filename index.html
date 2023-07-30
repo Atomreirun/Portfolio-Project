@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Project by Arlene C. Runyon</title>
+    <meta
+      name="description"
+      content="Arlene is a front-end engineer based in Raleigh, North Carolina, USA."
+    />
+    <title>Front-end developer - Arlene C. Runyon</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,31 +35,32 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img
-          src="images/shecodes-logo.png"
-          class="logo d-none d-md-block"
-          alt=""
-        />
-        <img
-          src="images/shecodes-small.png"
-          class="logo d-block d-md-none"
-          alt=""
-          width="90"
-        />
-
+        <a href="/" title="Homepage">
+          <img
+            src="images/shecodes-logo.png"
+            class="logo d-none d-md-block"
+            alt="Arlene Logo"
+          />
+          <img
+            src="images/shecodes-small.png"
+            class="logo d-block d-md-none"
+            alt="Arlene Logo"
+            width="90"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="index.html" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="about.html"> About</a>
+            <a href="about.html" title="About Arlene"> About</a>
           </li>
           <li>
-            <a href="work.html"> Work</a>
+            <a href="work.html" title="Arlene's projects "> Work</a>
           </li>
 
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html" title="Contact Arlene">Contact</a>
           </li>
         </ul>
       </nav>
@@ -78,7 +83,7 @@
           <img
             src="images/singing-girl.png"
             class="singing-picture"
-            alt=""
+            alt="dark-theme project preview"
             width="600"
           />
         </div>
@@ -103,7 +108,7 @@
       <div class="row mb-5">
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Weather Project</h2>
+            <h2 class="mb-3">Weather Project</h2>
             <p class="margin b-5">
               This application was created with HTML, CSS, JavaScript and
               Bootstrap. And the key elements on this weather application are
@@ -121,53 +126,89 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="images/Phil-travel.png" class="travel" alt="" />
+          <img
+            src="images/Phil-travel.png"
+            class="travel"
+            alt="Phillipne travel preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
-            <h2 class="mb-5">Philippine-Travel Project</h2>
-            <p class="margin b-2">
-              Far far away, behind the word mountains, far fromt he countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by.
+            <h2 class="mb-3">Travel Project</h2>
+            <p class="mb-3">
+              This travel project is all about the Philippine tourism. It was
+              coded in HTML, CSS and JavaScript. Learn, see and explore the
+              beauty and amazing scenic views of the Pearl of the Orient,
+              Philippines.
             </p>
-            <a href="#" class="btn btn-branding-outline"> Learn More</a>
+            <a
+              href="https://rainbow-pegasus-536cf8.netlify.app"
+              class="btn btn-branding-outline"
+            >
+              Learn More</a
+            >
           </div>
         </div>
       </div>
       <footer>
-        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div
+          class="contact-box justify-content-between mt-5 mb-5 d-none d-md-flex"
+        >
           <div>
             <h4>Work Inquiry</h4>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div class="pe-3">
-            <a href="" class="btn btn-branding">Contact Me</a>
+          <div>
+            <a
+              href="contact.html"
+              title="Contact Arlene"
+              class="btn btn-branding"
+              >Contact Me</a
+            >
           </div>
         </div>
 
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:rei_0615@yahoo.com" class="email-link"
+          <a
+            href="mailto:rei_0615@yahoo.com"
+            class="email-link"
+            title="Email Arlene"
             >rei_0615@yahoo.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/Atomreirun" target="_blank">
+          <a
+            href="https://github.com/Atomreirun"
+            target="_blank"
+            title="Github Profile"
+          >
             <i class="fa-brands fa-github"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/arlene-runyon-0412a8275"
             target="_blank"
+            title="LinkedIn Profile"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
         </div>
+        <p class="text-center mt-4">
+          This project was coded by Arlene Runyon, and it is
+          <a
+            href="https://github.com/Atomreirun/Portfolio-Project"
+            target="_blank"
+            >open-sourced on Github.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
