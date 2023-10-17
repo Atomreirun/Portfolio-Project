@@ -266,5 +266,6 @@ nav a {
 }
 
 .col-md-4 {
-  text-align: center;
+  margin: auto 0;
+  display: block;
 }
