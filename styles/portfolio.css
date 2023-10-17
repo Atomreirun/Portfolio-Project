@@ -181,8 +181,16 @@ nav li.active a {
   color: var(--branding-color);
 }
 
+.col-md-6 {
+  border: solid#99999c;
+  border-radius: 4px;
+}
+
+.col-md-4 {
+  margin-left: 90px;
+}
 footer {
-  margin: 60px 0;
+  margin: 150px 0;
 }
 
 footer .contact-box {
@@ -255,4 +263,8 @@ p.text-center {
 nav a {
   font-size: 12px;
   margin: 5px;
+}
+
+.col-md-4 {
+  text-align: center;
 }
