@@ -181,11 +181,6 @@ nav li.active a {
   color: var(--branding-color);
 }
 
-.col-md-6 {
-  border: solid#99999c;
-  border-radius: 4px;
-}
-
 .col-md-4 {
   margin-left: 90px;
 }
